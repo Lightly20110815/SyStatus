@@ -1,4 +1,20 @@
 {
   "version": 1,
-  "records": []
+  "records": [
+    {
+      "id": "2026-05-31T00:19:12.001Z",
+      "createdAt": "2026-05-31T00:19:12.001Z",
+      "finalScore": 34,
+      "feelings": [
+        "不安",
+        "被丢下",
+        "柔软"
+      ],
+      "factors": [
+        "GPT",
+        "AI"
+      ],
+      "stateText": "Sy 把屏幕亮度调到最低，像给自己盖上一层薄毯。"
+    }
+  ]
 }
