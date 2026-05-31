@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "customFeelings": [],
+  "customFeelings": [
+    {
+      "label": "无力回天",
+      "baseScore": 80,
+      "createdAt": "2026-05-31T10:31:56.034Z"
+    }
+  ],
   "customFactors": [
     "可爱Eph"
   ]
