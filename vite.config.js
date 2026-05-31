@@ -9,10 +9,14 @@ const SERVER_PORT = process.env.PORT || 4823;
 export default defineConfig({
   plugins: [react()],
   server: {
+    host: "127.0.0.1",
     port: 5173,
+    strictPort: true,
     proxy: {
       "/api": {
-        target: `http://localhost:${SERVER_PORT}`,
+        // 必须用 127.0.0.1，与本地 Node 服务的绑定地址一致；
+        // 写 localhost 在 Windows 上可能先解析到 ::1 导致 /api 代理连不上。
+        target: `http://127.0.0.1:${SERVER_PORT}`,
         changeOrigin: true,
       },
     },
