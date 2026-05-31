@@ -1,0 +1,40 @@
+/* 主题变量。暖中性、低对比、低刺激。 */
+
+:root {
+  /* 背景与表面 */
+  --bg: #f4f3f0;
+  --surface: #fffffe;
+  --surface-2: #efeee9;
+  --surface-inset: #f7f6f3;
+
+  /* 描边 */
+  --border: #e7e5df;
+  --border-strong: #d9d7cf;
+
+  /* 文字 */
+  --ink: #2c2b28;
+  --ink-2: #6b685f;
+  --ink-3: #9b978d;
+
+  /* 交互强调色：雾蓝绿，安静不抢眼 */
+  --accent: #6a8a93;
+  --accent-hover: #5d7c85;
+  --accent-ink: #ffffff;
+  --accent-soft: #e3ebec;
+
+  /* 删除/警示：低饱和陶土色，不用刺眼纯红 */
+  --danger: #a8705f;
+  --danger-hover: #976254;
+  --danger-soft: #f1e4df;
+
+  /* 圆角与阴影：小圆角、克制阴影 */
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 14px;
+  --shadow-card: 0 1px 2px rgba(40, 38, 34, 0.04), 0 1px 1px rgba(40, 38, 34, 0.03);
+  --shadow-pop: 0 6px 24px rgba(40, 38, 34, 0.12);
+
+  /* 布局 */
+  --page-max: 760px;
+  --header-h: 56px;
+}

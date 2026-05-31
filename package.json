@@ -1,0 +1,24 @@
+{
+  "name": "sy-state",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Sy State — 一个给 Sy 私人使用的本地心理状态记录仪",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "recharts": "^2.13.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

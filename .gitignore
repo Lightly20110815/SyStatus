@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# 注意：data/ 下的 records.json 与 settings.json 是要被提交的，不要忽略它们。
